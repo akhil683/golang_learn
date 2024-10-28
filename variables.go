@@ -14,6 +14,9 @@ func main() {
   // := walrus operator
   mySkillIssues := 42
 
+  // declare variable in single line
+  name, age := "akhil", 15
+
 	fmt.Printf("%v %.2f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username, mySkillIssues)
 }
 
