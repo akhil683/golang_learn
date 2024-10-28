@@ -1,3 +1,4 @@
+//NOTE: Interfaces
 type shape interface {
   area() float64
   perimeter float64
@@ -15,6 +16,6 @@ func(r rect) perimeter() float64 {
 }
 
 type circle struct {
-  readius float64
+  radius float64
 }
 
